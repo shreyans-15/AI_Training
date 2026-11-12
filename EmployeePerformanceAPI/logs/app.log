@@ -1,0 +1,4 @@
+2026-11-11 19:46:56,823 | EmployeePerformanceAPI | INFO | Home endpoint accessed
+2026-11-11 19:55:10,393 | EmployeePerformanceAPI | INFO | Employee record created successfully. Employee ID: 1
+2026-11-11 19:58:31,016 | EmployeePerformanceAPI | INFO | Employee record created successfully. Employee ID: 101
+2026-11-11 19:59:56,308 | EmployeePerformanceAPI | WARNING | Attempt to create duplicate employee ID: 101
