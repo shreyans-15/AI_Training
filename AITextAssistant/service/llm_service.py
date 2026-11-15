@@ -27,7 +27,7 @@ def generate_ai_response(request: RequestFromAI) -> ResponseFromAI:
     #Step-4 extract the generated response
     ai_text = response.output_text
 
-    #Step-5 return 
+    #Step-5 return
     return ResponseFromAI(
         responsefromAI = ai_text
     )
