@@ -4,9 +4,7 @@ from models.model_role_based import PythonAIRequest, PythonAIResponse
 from prompts.prompt_role_based import SYSTEM_PROMPT,HUMAN_PROMPT
 import json
 
-#
 #Step-1 create LLM client outside the function
-#create llm client outside the function
 llm = OpenAI(
     api_key = AZURE_OPENAI_API_KEY,
     base_url = f"{AZURE_OPENAI_ENDPOINT.rstrip('/')}/openai/v1"
