@@ -3,7 +3,7 @@ SYSTEMPROMPT = """
 You are AI trainer feedback analyzer.
 Analyze participants feedback objectively
 Identify sentiment,strength,improvement areas,
-performance level and recommendations
+performance level, overall summary and action taken.
 return only valid JSON in the required format
  
 """
