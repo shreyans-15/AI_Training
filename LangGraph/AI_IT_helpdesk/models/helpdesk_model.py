@@ -1,21 +1,19 @@
 from pydantic import BaseModel, Field
-from typing import Literal
 
-class HelpdeskRequest(BaseModel):
 
-    employeeId: set
+class HelpDeskRequest(BaseModel):
+    employeeId: str
     employeeName: str
-    issue: str = Field(min_length = 5)
+    issue: str = Field(min_length=5)
 
-class HelpdeskResponse(BaseModel):
 
+class HelpDeskResponse(BaseModel):
     employeeId: str
     category: str
     priority: str
-    agentUsed: str
     toolsCalled: list[str]
     resolution: list[str]
     reviewStatus: str
-    ticketId: str | None = None
+    ticketId: str | None
     status: str
-
+    agentUsed: str
